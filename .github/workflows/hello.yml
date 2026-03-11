@@ -1,0 +1,11 @@
+name: My first workflow
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubunut-latest
+
+    steps:
+        - name: Print message
+          run: echo "Hello from Priyanshu to Github actions!"
