@@ -8,6 +8,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      - name: Print message
+        run: echo "Hello from Priyanshu to Github actions!"
+
       - name: Checkout Code
         uses: actions/checkout@v3
 
